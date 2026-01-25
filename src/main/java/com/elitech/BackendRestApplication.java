@@ -1,28 +1,25 @@
 package com.elitech;
 
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.elitech.dao.repository.EmployeeRepository;
-import com.elitech.model.entities.Employee;
-import com.elitech.model.enumerated.Grades;
+
 
 
 @SpringBootApplication
-public class BackendRestApplication implements CommandLineRunner {
-
+public class BackendRestApplication  {
+/*
 	@Autowired
 	EmployeeRepository employeeRepository;
-	
+	*/
 	
 	public static void main(String[] args) {
 		SpringApplication.run(BackendRestApplication.class, args);
 	}
-
+/*
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
@@ -50,5 +47,5 @@ public class BackendRestApplication implements CommandLineRunner {
 				);
 		
 	}
-
+*/
 }
